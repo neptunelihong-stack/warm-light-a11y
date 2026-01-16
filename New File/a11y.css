@@ -1,0 +1,7 @@
+:root{--bg:#fff;--text:#111;--btn:#f96}
+html.high-contrast{--bg:#000;--text:#ff0;--btn:#0ff}
+body{margin:0;font-family:system-ui, sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+header{display:flex;align-items:center;justify-content:space-between;padding:1rem}
+button{padding:.8rem 1.2rem;font-size:1.2rem;background:var(--btn);color:#000;border:0;border-radius:4px;cursor:pointer}
+.big-btn{font-size:1.8rem;width:100%;max-width:320px}
+.sr-only{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
